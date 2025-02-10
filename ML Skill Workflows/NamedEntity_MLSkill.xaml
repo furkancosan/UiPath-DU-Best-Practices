@@ -1,0 +1,201 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="NamedEntity_MLSkill" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1072,2556" sap2010:WorkflowViewState.IdRef="CustomNamedEntity_MLSkill_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:njl="clr-namespace:Newtonsoft.Json.Linq;assembly=Newtonsoft.Json" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:um="clr-namespace:UiPath.MLServices;assembly=UiPath.MLServices" xmlns:uma="clr-namespace:UiPath.MLServices.Activities;assembly=UiPath.MLServices.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.MLServices</x:String>
+      <x:String>UiPath.MLServices.Enums</x:String>
+      <x:String>UiPath.MLServices.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>Newtonsoft.Json.Linq</x:String>
+      <x:String>Newtonsoft.Json</x:String>
+      <x:String>System.Dynamic</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Collections.Specialized</x:String>
+      <x:String>UiPath.Web.Activities</x:String>
+      <x:String>System.Numerics</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Linq.Async</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.MLServices</AssemblyReference>
+      <AssemblyReference>UiPath.MLServices.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.IntelligentOCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.DocumentUnderstanding.ML.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Web.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.MicrosoftOffice365.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>netstandard</AssemblyReference>
+      <AssemblyReference>Newtonsoft.Json</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Collections.Specialized</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+      <AssemblyReference>System.Runtime.Numerics</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="NamedEntity_MLSkill" sap:VirtualizedContainerService.HintSize="608,2491" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:String" Name="InputValue" />
+      <Variable x:TypeArguments="x:String" Name="JResponse" />
+      <Variable x:TypeArguments="njl:JObject" Name="JObject" />
+      <Variable x:TypeArguments="njl:JArray" Name="JArray" />
+      <Variable x:TypeArguments="x:String" Name="ChosenButton" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <Assign sap:VirtualizedContainerService.HintSize="546,114" sap2010:WorkflowViewState.IdRef="Assign_1">
+      <Assign.To>
+        <OutArgument x:TypeArguments="x:String">[InputValue]</OutArgument>
+      </Assign.To>
+      <Assign.Value>
+        <InArgument x:TypeArguments="x:String">
+          <Literal x:TypeArguments="x:String" Value="" />
+        </InArgument>
+      </Assign.Value>
+    </Assign>
+    <Assign sap:VirtualizedContainerService.HintSize="546,114" sap2010:WorkflowViewState.IdRef="Assign_4">
+      <Assign.To>
+        <OutArgument x:TypeArguments="x:String">[ChosenButton]</OutArgument>
+      </Assign.To>
+      <Assign.Value>
+        <InArgument x:TypeArguments="x:String">Ok</InArgument>
+      </Assign.Value>
+    </Assign>
+    <ui:Comment sap:VirtualizedContainerService.HintSize="546,569" sap2010:WorkflowViewState.IdRef="Comment_1" Text="PERSON (Kişi):&#xA;İsimler, soyadları, unvanlar gibi kişisel isimler için kullanılır. Örneğin: &quot;John Doe&quot;, &quot;Dr. Smith&quot;.&#xD;&#xA;&#xA;ORGANIZATION (Kuruluş):&#xA;Şirketler, kurumlar, kuruluşlar gibi yapıları ifade eder. Örneğin: &quot;Google&quot;, &quot;United Nations&quot;.&#xD;&#xA;&#xA;LOCATION (Yer):&#xA;Coğrafi yerler için kullanılır. Şehirler, ülkeler, nehirler, dağlar gibi. Örneğin: &quot;New York&quot;, &quot;Turkey&quot;, &quot;Nile River&quot;.&#xD;&#xA;&#xA;DATE (Tarih):&#xA;Tarih ve zaman ifadeleri için kullanılır. Örneğin: &quot;January 1, 2023&quot;, &quot;10:30 AM&quot;.&#xD;&#xA;&#xA;TIME (Zaman):&#xA;Zaman ifadeleri için kullanılır. Örneğin: &quot;3:00 PM&quot;, &quot;noon&quot;.&#xD;&#xA;&#xA;MONEY (Para):&#xA;Para birimleri ve miktarları için kullanılır. Örneğin: &quot;$100&quot;, &quot;€50&quot;.&#xD;&#xA;&#xA;PERCENT (Yüzde):&#xA;Yüzdelik oranlar için kullanılır. Örneğin: &quot;50%&quot;, &quot;10.5%&quot;.&#xD;&#xA;&#xA;GPE (Geo-Political Entity - Coğrafi-Politik Varlık):&#xA;Coğrafi-politik varlıkları ifade eder. Şehirler, eyaletler, ülkeler gibi. Örneğin: &quot;Paris&quot;, &quot;California&quot;." />
+    <ui:InterruptibleWhile CurrentIndex="{x:Null}" DisplayName="While" sap:VirtualizedContainerService.HintSize="546,1606" sap2010:WorkflowViewState.IdRef="InterruptibleWhile_1">
+      <ui:InterruptibleWhile.Body>
+        <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="512,1469" sap2010:WorkflowViewState.IdRef="Sequence_4">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <ui:InputDialog Options="{x:Null}" OptionsString="{x:Null}" DisplayName="Input Dialog" sap:VirtualizedContainerService.HintSize="450,271" sap2010:WorkflowViewState.IdRef="InputDialog_1" IsPassword="False" Label="Input" Title="Input Dialog">
+            <ui:InputDialog.Result>
+              <OutArgument x:TypeArguments="x:String">[InputValue]</OutArgument>
+            </ui:InputDialog.Result>
+          </ui:InputDialog>
+          <uma:MLSkills ApiKey="{x:Null}" ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" Name="{x:Null}" NumberOfRetries="{x:Null}" ResponseHeaders="{x:Null}" Result="{x:Null}" SkillURL="{x:Null}" StatusCode="{x:Null}" TimeOutMs="{x:Null}" Connection="Robot" DisplayName="MLSkill" ExternApiFileType="JSON" sap:VirtualizedContainerService.HintSize="450,443" sap2010:WorkflowViewState.IdRef="MLSkills_1" Item="[InputValue]" JsonResponse="[JResponse]" NextPageNum="2" RefreshList="False" TotalCount="1">
+            <uma:MLSkills.MLSkillList>
+              <scg:List x:TypeArguments="um:MLSkill" Capacity="4">
+                <x:Reference>__ReferenceID0</x:Reference>
+              </scg:List>
+            </uma:MLSkills.MLSkillList>
+            <uma:MLSkills.SelectedMLSkill>
+              <um:MLSkill x:Name="__ReferenceID0" AccessUri="https://ai-uipath-we-b.deskover.com/mlskills/aa400b2e-7a3d-428f-9059-f01df82da001/f900c8c7-ab03-42b3-af88-15c257a1a975/cluster-b/namedentity-mlskill" AccountId="aa400b2e-7a3d-428f-9059-f01df82da001" Description="" Id="9e6561cc-7f01-4c56-bd46-bb1f0015d12d" InputDescription="Text in English from which entities will be extracted." InputType="JSON" Name="NamedEntity_MLSkill" OutputDescription="List of named entities in the text. Each elemnt in the list has the text that was recognized, the starting and ending positions (character-wise) of the text, the type of named entity and the confidence in that prediction. For example: [ {&quot;text&quot;: &quot;George Washington&quot;,&quot;start_pos&quot;: 0,&quot;end_pos&quot;: 17,&quot;type&quot;: &quot;PERSON&quot;,&quot;confidence&quot;: 0.96469810605049133 }, {&quot;text&quot;: &quot;New York City&quot;,&quot;start_pos&quot;: 26,&quot;end_pos&quot;: 39,&quot;type&quot;: &quot;LOC&quot;,&quot;confidence&quot;: 0.944470226764679 }, {&quot;text&quot;: &quot;Congress&quot;,&quot;start_pos&quot;: 51,&quot;end_pos&quot;: 59,&quot;type&quot;: &quot;ORG&quot;,&quot;confidence&quot;: 0.99666249752044678 }]" ProjectId="b45d1cad-de64-49e6-91fd-a62607a40acf" TenantId="f900c8c7-ab03-42b3-af88-15c257a1a975" />
+            </uma:MLSkills.SelectedMLSkill>
+          </uma:MLSkills>
+          <Assign sap:VirtualizedContainerService.HintSize="450,114" sap2010:WorkflowViewState.IdRef="Assign_3">
+            <Assign.To>
+              <OutArgument x:TypeArguments="njl:JArray">[JArray]</OutArgument>
+            </Assign.To>
+            <Assign.Value>
+              <InArgument x:TypeArguments="njl:JArray">[Newtonsoft.Json.Linq.JArray.Parse(JResponse)]</InArgument>
+            </Assign.Value>
+          </Assign>
+          <If Condition="[JArray.Count &gt; 0]" sap:VirtualizedContainerService.HintSize="450,553" sap2010:WorkflowViewState.IdRef="If_1">
+            <If.Then>
+              <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="416,196" sap2010:WorkflowViewState.IdRef="Sequence_2">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <ui:MessageBox Caption="{x:Null}" AutoCloseAfter="00:00:00" Buttons="OkCancel" ChosenButton="[ChosenButton]" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="354,108" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[&quot;Text: &quot; + JArray(0)(&quot;text&quot;).ToString + Environment.NewLine + _&#xD;&#xA;&quot;Type: &quot; +  JArray(0)(&quot;type&quot;).ToString + Environment.NewLine + _&#xD;&#xA;&quot;Confidence: &quot; +  JArray(0)(&quot;confidence&quot;).ToString]" />
+              </Sequence>
+            </If.Then>
+            <If.Else>
+              <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="416,196" sap2010:WorkflowViewState.IdRef="Sequence_3">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <ui:MessageBox Caption="{x:Null}" AutoCloseAfter="00:00:00" Buttons="OkCancel" ChosenButton="[ChosenButton]" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="354,108" sap2010:WorkflowViewState.IdRef="MessageBox_2" Text="[&quot;Belirlenemedi.&quot;]" />
+              </Sequence>
+            </If.Else>
+          </If>
+        </Sequence>
+      </ui:InterruptibleWhile.Body>
+      <ui:InterruptibleWhile.Condition>
+        <VisualBasicValue x:TypeArguments="x:Boolean" DisplayName="Visual basic value" ExpressionText="ChosenButton.Equals(&quot;Ok&quot;)" />
+      </ui:InterruptibleWhile.Condition>
+    </ui:InterruptibleWhile>
+  </Sequence>
+</Activity>

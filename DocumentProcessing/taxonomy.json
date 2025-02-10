@@ -1,0 +1,4314 @@
+﻿{
+  "DataContractVersion": "1.1",
+  "DocumentTypes": [
+    {
+      "Connections": [],
+      "DocumentTypeId": "BILLOFLADING.Ithalat.CMA",
+      "Group": "BILL OF LADING",
+      "Category": "Ithalat",
+      "Name": "CMA",
+      "OptionalUniqueIdentifier": "",
+      "TypeField": {
+        "FieldId": "BILLOFLADING.Ithalat.CMA.DocumentType",
+        "FieldName": "Document Type"
+      },
+      "Fields": [
+        {
+          "FieldId": "BILLOFLADING.Ithalat.CMA.BL_No",
+          "FieldName": "BL_No",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#038a18"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "l"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "BILLOFLADING.Ithalat.CMA.Vessel_Info",
+          "FieldName": "Vessel_Info",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#b34692"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "q"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "BILLOFLADING.Ithalat.CMA.Port_Info",
+          "FieldName": "Port_Info",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#6eb84a"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "r"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "BILLOFLADING.Ithalat.CMA.Voyage_Number",
+          "FieldName": "Voyage_Number",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#8c738f"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "v"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "BILLOFLADING.Ithalat.CMA.Container_No",
+          "FieldName": "Container_No",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#6bbedd"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "a"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "BILLOFLADING.Ithalat.CMA.Seal_Number",
+          "FieldName": "Seal_Number",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#5cd483"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "e"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "BILLOFLADING.Ithalat.CMA.Cargo_Weight",
+          "FieldName": "Cargo_Weight",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#aab266"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "g"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "BILLOFLADING.Ithalat.CMA.Shipped_Date",
+          "FieldName": "Shipped_Date",
+          "IsMultiValue": false,
+          "Type": "Date",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#fa9a38"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "h"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        }
+      ]
+    },
+    {
+      "Connections": [],
+      "DocumentTypeId": "BILLOFLADING.Ithalat.COSCO",
+      "Group": "BILL OF LADING",
+      "Category": "Ithalat",
+      "Name": "COSCO",
+      "OptionalUniqueIdentifier": "",
+      "TypeField": {
+        "FieldId": "BILLOFLADING.Ithalat.COSCO.DocumentType",
+        "FieldName": "Document Type"
+      },
+      "Fields": [
+        {
+          "FieldId": "BILLOFLADING.Ithalat.COSCO.BL_No",
+          "FieldName": "BL_No",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#038a18"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "l"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "BILLOFLADING.Ithalat.COSCO.Vessel_Info",
+          "FieldName": "Vessel_Info",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#b34692"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "q"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "BILLOFLADING.Ithalat.COSCO.Port_Info",
+          "FieldName": "Port_Info",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#6eb84a"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "r"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "BILLOFLADING.Ithalat.COSCO.Voyage_Number",
+          "FieldName": "Voyage_Number",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#8c738f"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "v"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "BILLOFLADING.Ithalat.COSCO.Container_No",
+          "FieldName": "Container_No",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#6bbedd"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "a"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "BILLOFLADING.Ithalat.COSCO.Seal_Number",
+          "FieldName": "Seal_Number",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#5cd483"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "e"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "BILLOFLADING.Ithalat.COSCO.Cargo_Weight",
+          "FieldName": "Cargo_Weight",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#aab266"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "g"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "BILLOFLADING.Ithalat.COSCO.Shipped_Date",
+          "FieldName": "Shipped_Date",
+          "IsMultiValue": false,
+          "Type": "Date",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#fa9a38"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "h"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        }
+      ]
+    },
+    {
+      "Connections": [],
+      "DocumentTypeId": "BILLOFLADING.Ithalat.EVERGREEN",
+      "Group": "BILL OF LADING",
+      "Category": "Ithalat",
+      "Name": "EVERGREEN",
+      "OptionalUniqueIdentifier": "",
+      "TypeField": {
+        "FieldId": "BILLOFLADING.Ithalat.EVERGREEN.DocumentType",
+        "FieldName": "Document Type"
+      },
+      "Fields": [
+        {
+          "FieldId": "BILLOFLADING.Ithalat.EVERGREEN.BL_No",
+          "FieldName": "BL_No",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#038a18"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "l"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "BILLOFLADING.Ithalat.EVERGREEN.Vessel_Info",
+          "FieldName": "Vessel_Info",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#b34692"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "q"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "BILLOFLADING.Ithalat.EVERGREEN.Port_Info",
+          "FieldName": "Port_Info",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#6eb84a"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "r"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "BILLOFLADING.Ithalat.EVERGREEN.Voyage_Number",
+          "FieldName": "Voyage_Number",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#8c738f"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "v"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "BILLOFLADING.Ithalat.EVERGREEN.Container_No",
+          "FieldName": "Container_No",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#6bbedd"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "a"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "BILLOFLADING.Ithalat.EVERGREEN.Seal_Number",
+          "FieldName": "Seal_Number",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#5cd483"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "e"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "BILLOFLADING.Ithalat.EVERGREEN.Cargo_Weight",
+          "FieldName": "Cargo_Weight",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#aab266"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "g"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "BILLOFLADING.Ithalat.EVERGREEN.Shipped_Date",
+          "FieldName": "Shipped_Date",
+          "IsMultiValue": false,
+          "Type": "Date",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#fa9a38"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "h"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        }
+      ]
+    },
+    {
+      "Connections": [],
+      "DocumentTypeId": "BILLOFLADING.Ithalat.MAERSK",
+      "Group": "BILL OF LADING",
+      "Category": "Ithalat",
+      "Name": "MAERSK",
+      "OptionalUniqueIdentifier": "",
+      "TypeField": {
+        "FieldId": "BILLOFLADING.Ithalat.MAERSK.DocumentType",
+        "FieldName": "Document Type"
+      },
+      "Fields": [
+        {
+          "FieldId": "BILLOFLADING.Ithalat.MAERSK.BL_No",
+          "FieldName": "BL_No",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#038a18"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "l"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "BILLOFLADING.Ithalat.MAERSK.Vessel_Info",
+          "FieldName": "Vessel_Info",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#b34692"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "q"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "BILLOFLADING.Ithalat.MAERSK.Port_Info",
+          "FieldName": "Port_Info",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#6eb84a"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "r"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "BILLOFLADING.Ithalat.MAERSK.Voyage_Number",
+          "FieldName": "Voyage_Number",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#8c738f"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "v"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "BILLOFLADING.Ithalat.MAERSK.Container_No",
+          "FieldName": "Container_No",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#6bbedd"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "a"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "BILLOFLADING.Ithalat.MAERSK.Seal_Number",
+          "FieldName": "Seal_Number",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#5cd483"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "e"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "BILLOFLADING.Ithalat.MAERSK.Cargo_Weight",
+          "FieldName": "Cargo_Weight",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#aab266"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "g"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "BILLOFLADING.Ithalat.MAERSK.Shipped_Date",
+          "FieldName": "Shipped_Date",
+          "IsMultiValue": false,
+          "Type": "Date",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#fa9a38"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "h"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        }
+      ]
+    },
+    {
+      "Connections": [],
+      "DocumentTypeId": "BILLOFLADING.Ithalat.MSC",
+      "Group": "BILL OF LADING",
+      "Category": "Ithalat",
+      "Name": "MSC",
+      "OptionalUniqueIdentifier": "",
+      "TypeField": {
+        "FieldId": "BILLOFLADING.Ithalat.MSC.DocumentType",
+        "FieldName": "Document Type"
+      },
+      "Fields": [
+        {
+          "FieldId": "BILLOFLADING.Ithalat.MSC.BL_No",
+          "FieldName": "BL_No",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#038a18"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "l"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "BILLOFLADING.Ithalat.MSC.Vessel_Info",
+          "FieldName": "Vessel_Info",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#b34692"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "q"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "BILLOFLADING.Ithalat.MSC.Port_Info",
+          "FieldName": "Port_Info",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#6eb84a"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "r"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "BILLOFLADING.Ithalat.MSC.Voyage_Number",
+          "FieldName": "Voyage_Number",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#8c738f"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "v"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "BILLOFLADING.Ithalat.MSC.Container_No",
+          "FieldName": "Container_No",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#6bbedd"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "a"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "BILLOFLADING.Ithalat.MSC.Seal_Number",
+          "FieldName": "Seal_Number",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#5cd483"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "e"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "BILLOFLADING.Ithalat.MSC.Cargo_Weight",
+          "FieldName": "Cargo_Weight",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#aab266"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "g"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "BILLOFLADING.Ithalat.MSC.Shipped_Date",
+          "FieldName": "Shipped_Date",
+          "IsMultiValue": false,
+          "Type": "Date",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#fa9a38"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "h"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        }
+      ]
+    },
+    {
+      "Connections": [],
+      "DocumentTypeId": "BILLOFLADING.Ithalat.ONE",
+      "Group": "BILL OF LADING",
+      "Category": "Ithalat",
+      "Name": "ONE",
+      "OptionalUniqueIdentifier": "",
+      "TypeField": {
+        "FieldId": "BILLOFLADING.Ithalat.ONE.DocumentType",
+        "FieldName": "Document Type"
+      },
+      "Fields": [
+        {
+          "FieldId": "BILLOFLADING.Ithalat.ONE.BL_No",
+          "FieldName": "BL_No",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#038a18"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "l"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "BILLOFLADING.Ithalat.ONE.Vessel_Info",
+          "FieldName": "Vessel_Info",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#b34692"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "q"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "BILLOFLADING.Ithalat.ONE.Port_Info",
+          "FieldName": "Port_Info",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#6eb84a"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "r"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "BILLOFLADING.Ithalat.ONE.Voyage_Number",
+          "FieldName": "Voyage_Number",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#8c738f"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "v"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "BILLOFLADING.Ithalat.ONE.Container_No",
+          "FieldName": "Container_No",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#6bbedd"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "a"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "BILLOFLADING.Ithalat.ONE.Seal_Number",
+          "FieldName": "Seal_Number",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#5cd483"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "e"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "BILLOFLADING.Ithalat.ONE.Cargo_Weight",
+          "FieldName": "Cargo_Weight",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#aab266"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "g"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "BILLOFLADING.Ithalat.ONE.Shipped_Date",
+          "FieldName": "Shipped_Date",
+          "IsMultiValue": false,
+          "Type": "Date",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#fa9a38"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "h"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        }
+      ]
+    },
+    {
+      "Connections": [],
+      "DocumentTypeId": "COA.AKKIM.AkkimTR",
+      "Group": "COA",
+      "Category": "AKKIM",
+      "Name": "Akkim_TR",
+      "OptionalUniqueIdentifier": "",
+      "TypeField": {
+        "FieldId": "COA.AKKIM.AkkimTR.DocumentType",
+        "FieldName": "Document Type"
+      },
+      "Fields": [
+        {
+          "FieldId": "COA.AKKIM.AkkimTR.Order_No",
+          "FieldName": "Order_No",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#3b9ff9"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "r"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "COA.AKKIM.AkkimTR.Product_Name",
+          "FieldName": "Product_Name",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#fcd98f"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "c"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "COA.AKKIM.AkkimTR.Product_Type",
+          "FieldName": "Product_Type",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#fda891"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "y"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "COA.AKKIM.AkkimTR.Batch_Lot_No",
+          "FieldName": "Batch_Lot_No",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#661595"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "a"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "COA.AKKIM.AkkimTR.Manufacturing_Date",
+          "FieldName": "Manufacturing_Date",
+          "IsMultiValue": false,
+          "Type": "Date",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#63d7b8"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "m"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "COA.AKKIM.AkkimTR.Shipment_Date",
+          "FieldName": "Shipment_Date",
+          "IsMultiValue": false,
+          "Type": "Date",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#5cd483"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "h"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "COA.AKKIM.AkkimTR.Expiration_Date",
+          "FieldName": "Expiration_Date",
+          "IsMultiValue": false,
+          "Type": "Date",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#e0ca89"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "e"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "COA.AKKIM.AkkimTR.Analysis_Table",
+          "FieldName": "Analysis_Table",
+          "IsMultiValue": false,
+          "Type": "Table",
+          "DeriveFieldsFormat": "",
+          "Components": [
+            {
+              "FieldId": "COA.AKKIM.AkkimTR.Analysis_Table.Characteristic",
+              "FieldName": "Characteristic",
+              "IsMultiValue": false,
+              "Type": "Text",
+              "DeriveFieldsFormat": "",
+              "Components": [],
+              "SetValues": [],
+              "Metadata": [],
+              "RuleSet": null,
+              "DefaultValue": "",
+              "DataSource": null
+            },
+            {
+              "FieldId": "COA.AKKIM.AkkimTR.Analysis_Table.Unit",
+              "FieldName": "Unit",
+              "IsMultiValue": false,
+              "Type": "Text",
+              "DeriveFieldsFormat": "",
+              "Components": [],
+              "SetValues": [],
+              "Metadata": [],
+              "RuleSet": null,
+              "DefaultValue": "",
+              "DataSource": null
+            },
+            {
+              "FieldId": "COA.AKKIM.AkkimTR.Analysis_Table.Value",
+              "FieldName": "Value",
+              "IsMultiValue": false,
+              "Type": "Text",
+              "DeriveFieldsFormat": "",
+              "Components": [],
+              "SetValues": [],
+              "Metadata": [],
+              "RuleSet": null,
+              "DefaultValue": "",
+              "DataSource": null
+            },
+            {
+              "FieldId": "COA.AKKIM.AkkimTR.Analysis_Table.Method",
+              "FieldName": "Method",
+              "IsMultiValue": false,
+              "Type": "Text",
+              "DeriveFieldsFormat": "",
+              "Components": [],
+              "SetValues": [],
+              "Metadata": [],
+              "RuleSet": null,
+              "DefaultValue": "",
+              "DataSource": null
+            },
+            {
+              "FieldId": "COA.AKKIM.AkkimTR.Analysis_Table.Spesification",
+              "FieldName": "Spesification",
+              "IsMultiValue": false,
+              "Type": "Text",
+              "DeriveFieldsFormat": "",
+              "Components": [],
+              "SetValues": [],
+              "Metadata": [],
+              "RuleSet": null,
+              "DefaultValue": "",
+              "DataSource": null
+            }
+          ],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#e370e2"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "l"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        }
+      ]
+    },
+    {
+      "Connections": [],
+      "DocumentTypeId": "COA.AKKIM.AkkimENG",
+      "Group": "COA",
+      "Category": "AKKIM",
+      "Name": "Akkim_ENG",
+      "OptionalUniqueIdentifier": "",
+      "TypeField": {
+        "FieldId": "COA.AKKIM.AkkimENG.DocumentType",
+        "FieldName": "Document Type"
+      },
+      "Fields": [
+        {
+          "FieldId": "COA.AKKIM.AkkimENG.Order_No",
+          "FieldName": "Order_No",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#3b9ff9"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "r"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "COA.AKKIM.AkkimENG.Product_Name",
+          "FieldName": "Product_Name",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#fcd98f"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "c"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "COA.AKKIM.AkkimENG.Product_Type",
+          "FieldName": "Product_Type",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#fda891"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "y"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "COA.AKKIM.AkkimENG.Batch_Lot_No",
+          "FieldName": "Batch_Lot_No",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#661595"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "a"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "COA.AKKIM.AkkimENG.Manufacturing_Date",
+          "FieldName": "Manufacturing_Date",
+          "IsMultiValue": false,
+          "Type": "Date",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#63d7b8"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "m"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "COA.AKKIM.AkkimENG.Shipment_Date",
+          "FieldName": "Shipment_Date",
+          "IsMultiValue": false,
+          "Type": "Date",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#5cd483"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "h"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "COA.AKKIM.AkkimENG.Expiration_Date",
+          "FieldName": "Expiration_Date",
+          "IsMultiValue": false,
+          "Type": "Date",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#e0ca89"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "e"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "COA.AKKIM.AkkimENG.Analysis_Table",
+          "FieldName": "Analysis_Table",
+          "IsMultiValue": false,
+          "Type": "Table",
+          "DeriveFieldsFormat": "",
+          "Components": [
+            {
+              "FieldId": "COA.AKKIM.AkkimENG.Analysis_Table.Characteristic",
+              "FieldName": "Characteristic",
+              "IsMultiValue": false,
+              "Type": "Text",
+              "DeriveFieldsFormat": "",
+              "Components": [],
+              "SetValues": [],
+              "Metadata": [],
+              "RuleSet": null,
+              "DefaultValue": "",
+              "DataSource": null
+            },
+            {
+              "FieldId": "COA.AKKIM.AkkimENG.Analysis_Table.Unit",
+              "FieldName": "Unit",
+              "IsMultiValue": false,
+              "Type": "Text",
+              "DeriveFieldsFormat": "",
+              "Components": [],
+              "SetValues": [],
+              "Metadata": [],
+              "RuleSet": null,
+              "DefaultValue": "",
+              "DataSource": null
+            },
+            {
+              "FieldId": "COA.AKKIM.AkkimENG.Analysis_Table.Value",
+              "FieldName": "Value",
+              "IsMultiValue": false,
+              "Type": "Text",
+              "DeriveFieldsFormat": "",
+              "Components": [],
+              "SetValues": [],
+              "Metadata": [],
+              "RuleSet": null,
+              "DefaultValue": "",
+              "DataSource": null
+            },
+            {
+              "FieldId": "COA.AKKIM.AkkimENG.Analysis_Table.Method",
+              "FieldName": "Method",
+              "IsMultiValue": false,
+              "Type": "Text",
+              "DeriveFieldsFormat": "",
+              "Components": [],
+              "SetValues": [],
+              "Metadata": [],
+              "RuleSet": null,
+              "DefaultValue": "",
+              "DataSource": null
+            },
+            {
+              "FieldId": "COA.AKKIM.AkkimENG.Analysis_Table.Spesification",
+              "FieldName": "Spesification",
+              "IsMultiValue": false,
+              "Type": "Text",
+              "DeriveFieldsFormat": "",
+              "Components": [],
+              "SetValues": [],
+              "Metadata": [],
+              "RuleSet": null,
+              "DefaultValue": "",
+              "DataSource": null
+            },
+            {
+              "FieldId": "COA.AKKIM.AkkimENG.Analysis_Table.Lower_Limit",
+              "FieldName": "Lower_Limit",
+              "IsMultiValue": false,
+              "Type": "Text",
+              "DeriveFieldsFormat": "",
+              "Components": [],
+              "SetValues": [],
+              "Metadata": [],
+              "RuleSet": null,
+              "DefaultValue": "",
+              "DataSource": null
+            },
+            {
+              "FieldId": "COA.AKKIM.AkkimENG.Analysis_Table.Upper_Limit",
+              "FieldName": "Upper_Limit",
+              "IsMultiValue": false,
+              "Type": "Text",
+              "DeriveFieldsFormat": "",
+              "Components": [],
+              "SetValues": [],
+              "Metadata": [],
+              "RuleSet": null,
+              "DefaultValue": "",
+              "DataSource": null
+            }
+          ],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#e370e2"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "l"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        }
+      ]
+    },
+    {
+      "Connections": [],
+      "DocumentTypeId": "COA.BASF.BASF_TR",
+      "Group": "COA",
+      "Category": "BASF",
+      "Name": "BASF_TR",
+      "OptionalUniqueIdentifier": "",
+      "TypeField": {
+        "FieldId": "COA.BASF.BASF_TR.DocumentType",
+        "FieldName": "Document Type"
+      },
+      "Fields": [
+        {
+          "FieldId": "COA.BASF.BASF_TR.Order_No",
+          "FieldName": "Order_No",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#3b9ff9"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "r"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "COA.BASF.BASF_TR.Product_Name",
+          "FieldName": "Product_Name",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#fcd98f"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "c"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "COA.BASF.BASF_TR.Batch_Lot_No",
+          "FieldName": "Batch_Lot_No",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#661595"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "a"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "COA.BASF.BASF_TR.Manufacturing_Date",
+          "FieldName": "Manufacturing_Date",
+          "IsMultiValue": false,
+          "Type": "Date",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#63d7b8"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "m"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "COA.BASF.BASF_TR.Expiration_Date",
+          "FieldName": "Expiration_Date",
+          "IsMultiValue": false,
+          "Type": "Date",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#e0ca89"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "e"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "COA.BASF.BASF_TR.Analysis_Table",
+          "FieldName": "Analysis_Table",
+          "IsMultiValue": false,
+          "Type": "Table",
+          "DeriveFieldsFormat": "",
+          "Components": [
+            {
+              "FieldId": "COA.BASF.BASF_TR.Analysis_Table.Characteristic",
+              "FieldName": "Characteristic",
+              "IsMultiValue": false,
+              "Type": "Text",
+              "DeriveFieldsFormat": "",
+              "Components": [],
+              "SetValues": [],
+              "Metadata": [],
+              "RuleSet": null,
+              "DefaultValue": "",
+              "DataSource": null
+            },
+            {
+              "FieldId": "COA.BASF.BASF_TR.Analysis_Table.Unit",
+              "FieldName": "Unit",
+              "IsMultiValue": false,
+              "Type": "Text",
+              "DeriveFieldsFormat": "",
+              "Components": [],
+              "SetValues": [],
+              "Metadata": [],
+              "RuleSet": null,
+              "DefaultValue": "",
+              "DataSource": null
+            },
+            {
+              "FieldId": "COA.BASF.BASF_TR.Analysis_Table.Value",
+              "FieldName": "Value",
+              "IsMultiValue": false,
+              "Type": "Text",
+              "DeriveFieldsFormat": "",
+              "Components": [],
+              "SetValues": [],
+              "Metadata": [],
+              "RuleSet": null,
+              "DefaultValue": "",
+              "DataSource": null
+            },
+            {
+              "FieldId": "COA.BASF.BASF_TR.Analysis_Table.Method",
+              "FieldName": "Method",
+              "IsMultiValue": false,
+              "Type": "Text",
+              "DeriveFieldsFormat": "",
+              "Components": [],
+              "SetValues": [],
+              "Metadata": [],
+              "RuleSet": null,
+              "DefaultValue": "",
+              "DataSource": null
+            },
+            {
+              "FieldId": "COA.BASF.BASF_TR.Analysis_Table.Lower_Limit",
+              "FieldName": "Lower_Limit",
+              "IsMultiValue": false,
+              "Type": "Text",
+              "DeriveFieldsFormat": "",
+              "Components": [],
+              "SetValues": [],
+              "Metadata": [],
+              "RuleSet": null,
+              "DefaultValue": "",
+              "DataSource": null
+            },
+            {
+              "FieldId": "COA.BASF.BASF_TR.Analysis_Table.Upper_Limit",
+              "FieldName": "Upper_Limit",
+              "IsMultiValue": false,
+              "Type": "Text",
+              "DeriveFieldsFormat": "",
+              "Components": [],
+              "SetValues": [],
+              "Metadata": [],
+              "RuleSet": null,
+              "DefaultValue": "",
+              "DataSource": null
+            }
+          ],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#e370e2"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "l"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        }
+      ]
+    },
+    {
+      "Connections": [],
+      "DocumentTypeId": "COA.BASF.BASF_SE",
+      "Group": "COA",
+      "Category": "BASF",
+      "Name": "BASF_SE",
+      "OptionalUniqueIdentifier": "",
+      "TypeField": {
+        "FieldId": "COA.BASF.BASF_SE.DocumentType",
+        "FieldName": "Document Type"
+      },
+      "Fields": [
+        {
+          "FieldId": "COA.BASF.BASF_SE.Order_No",
+          "FieldName": "Order_No",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#3b9ff9"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "r"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "COA.BASF.BASF_SE.Product_Name",
+          "FieldName": "Product_Name",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#fcd98f"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "c"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "COA.BASF.BASF_SE.Batch_Lot_No",
+          "FieldName": "Batch_Lot_No",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#661595"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "a"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "COA.BASF.BASF_SE.Manufacturing_Date",
+          "FieldName": "Manufacturing_Date",
+          "IsMultiValue": false,
+          "Type": "Date",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#63d7b8"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "m"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "COA.BASF.BASF_SE.Expiration_Date",
+          "FieldName": "Expiration_Date",
+          "IsMultiValue": false,
+          "Type": "Date",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#e0ca89"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "e"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "COA.BASF.BASF_SE.Analysis_Table",
+          "FieldName": "Analysis_Table",
+          "IsMultiValue": false,
+          "Type": "Table",
+          "DeriveFieldsFormat": "",
+          "Components": [
+            {
+              "FieldId": "COA.BASF.BASF_SE.Analysis_Table.Characteristic",
+              "FieldName": "Characteristic",
+              "IsMultiValue": false,
+              "Type": "Text",
+              "DeriveFieldsFormat": "",
+              "Components": [],
+              "SetValues": [],
+              "Metadata": [],
+              "RuleSet": null,
+              "DefaultValue": "",
+              "DataSource": null
+            },
+            {
+              "FieldId": "COA.BASF.BASF_SE.Analysis_Table.Unit",
+              "FieldName": "Unit",
+              "IsMultiValue": false,
+              "Type": "Text",
+              "DeriveFieldsFormat": "",
+              "Components": [],
+              "SetValues": [],
+              "Metadata": [],
+              "RuleSet": null,
+              "DefaultValue": "",
+              "DataSource": null
+            },
+            {
+              "FieldId": "COA.BASF.BASF_SE.Analysis_Table.Value",
+              "FieldName": "Value",
+              "IsMultiValue": false,
+              "Type": "Text",
+              "DeriveFieldsFormat": "",
+              "Components": [],
+              "SetValues": [],
+              "Metadata": [],
+              "RuleSet": null,
+              "DefaultValue": "",
+              "DataSource": null
+            },
+            {
+              "FieldId": "COA.BASF.BASF_SE.Analysis_Table.Method",
+              "FieldName": "Method",
+              "IsMultiValue": false,
+              "Type": "Text",
+              "DeriveFieldsFormat": "",
+              "Components": [],
+              "SetValues": [],
+              "Metadata": [],
+              "RuleSet": null,
+              "DefaultValue": "",
+              "DataSource": null
+            },
+            {
+              "FieldId": "COA.BASF.BASF_SE.Analysis_Table.Lower_Limit",
+              "FieldName": "Lower_Limit",
+              "IsMultiValue": false,
+              "Type": "Text",
+              "DeriveFieldsFormat": "",
+              "Components": [],
+              "SetValues": [],
+              "Metadata": [],
+              "RuleSet": null,
+              "DefaultValue": "",
+              "DataSource": null
+            },
+            {
+              "FieldId": "COA.BASF.BASF_SE.Analysis_Table.Upper_Limit",
+              "FieldName": "Upper_Limit",
+              "IsMultiValue": false,
+              "Type": "Text",
+              "DeriveFieldsFormat": "",
+              "Components": [],
+              "SetValues": [],
+              "Metadata": [],
+              "RuleSet": null,
+              "DefaultValue": "",
+              "DataSource": null
+            }
+          ],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#e370e2"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "l"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        }
+      ]
+    },
+    {
+      "Connections": [],
+      "DocumentTypeId": "COA.SASOL.Sasol",
+      "Group": "COA",
+      "Category": "SASOL",
+      "Name": "Sasol",
+      "OptionalUniqueIdentifier": "",
+      "TypeField": {
+        "FieldId": "COA.SASOL.Sasol.DocumentType",
+        "FieldName": "Document Type"
+      },
+      "Fields": [
+        {
+          "FieldId": "COA.SASOL.Sasol.Product_Name",
+          "FieldName": "Product_Name",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#fcd98f"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "c"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "COA.SASOL.Sasol.Batch_Lot_No",
+          "FieldName": "Batch_Lot_No",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#661595"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "a"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "COA.SASOL.Sasol.Manufacturing_Date",
+          "FieldName": "Manufacturing_Date",
+          "IsMultiValue": false,
+          "Type": "Date",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#63d7b8"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "m"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "COA.SASOL.Sasol.Expiration_Date",
+          "FieldName": "Expiration_Date",
+          "IsMultiValue": false,
+          "Type": "Date",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#e0ca89"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "e"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "COA.SASOL.Sasol.Analysis_Table",
+          "FieldName": "Analysis_Table",
+          "IsMultiValue": false,
+          "Type": "Table",
+          "DeriveFieldsFormat": "",
+          "Components": [
+            {
+              "FieldId": "COA.SASOL.Sasol.Analysis_Table.Characteristic",
+              "FieldName": "Characteristic",
+              "IsMultiValue": false,
+              "Type": "Text",
+              "DeriveFieldsFormat": "",
+              "Components": [],
+              "SetValues": [],
+              "Metadata": [],
+              "RuleSet": null,
+              "DefaultValue": "",
+              "DataSource": null
+            },
+            {
+              "FieldId": "COA.SASOL.Sasol.Analysis_Table.Unit",
+              "FieldName": "Unit",
+              "IsMultiValue": false,
+              "Type": "Text",
+              "DeriveFieldsFormat": "",
+              "Components": [],
+              "SetValues": [],
+              "Metadata": [],
+              "RuleSet": null,
+              "DefaultValue": "",
+              "DataSource": null
+            },
+            {
+              "FieldId": "COA.SASOL.Sasol.Analysis_Table.Value",
+              "FieldName": "Value",
+              "IsMultiValue": false,
+              "Type": "Text",
+              "DeriveFieldsFormat": "",
+              "Components": [],
+              "SetValues": [],
+              "Metadata": [],
+              "RuleSet": null,
+              "DefaultValue": "",
+              "DataSource": null
+            },
+            {
+              "FieldId": "COA.SASOL.Sasol.Analysis_Table.Method",
+              "FieldName": "Method",
+              "IsMultiValue": false,
+              "Type": "Text",
+              "DeriveFieldsFormat": "",
+              "Components": [],
+              "SetValues": [],
+              "Metadata": [],
+              "RuleSet": null,
+              "DefaultValue": "",
+              "DataSource": null
+            }
+          ],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#e370e2"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "l"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        }
+      ]
+    },
+    {
+      "Connections": [],
+      "DocumentTypeId": "COA.SOLVAY.Solvay",
+      "Group": "COA",
+      "Category": "SOLVAY",
+      "Name": "Solvay",
+      "OptionalUniqueIdentifier": "",
+      "TypeField": {
+        "FieldId": "COA.SOLVAY.Solvay.DocumentType",
+        "FieldName": "Document Type"
+      },
+      "Fields": [
+        {
+          "FieldId": "COA.SOLVAY.Solvay.Order_No",
+          "FieldName": "Order_No",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#3b9ff9"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "r"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "COA.SOLVAY.Solvay.Product_Name",
+          "FieldName": "Product_Name",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#fcd98f"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "c"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "COA.SOLVAY.Solvay.Batch_Lot_No",
+          "FieldName": "Batch_Lot_No",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#661595"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "a"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "COA.SOLVAY.Solvay.Manufacturing_Date",
+          "FieldName": "Manufacturing_Date",
+          "IsMultiValue": false,
+          "Type": "Date",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#63d7b8"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "m"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "COA.SOLVAY.Solvay.Expiration_Date",
+          "FieldName": "Expiration_Date",
+          "IsMultiValue": false,
+          "Type": "Date",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#e0ca89"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "e"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "COA.SOLVAY.Solvay.Analysis_Table",
+          "FieldName": "Analysis_Table",
+          "IsMultiValue": false,
+          "Type": "Table",
+          "DeriveFieldsFormat": "",
+          "Components": [
+            {
+              "FieldId": "COA.SOLVAY.Solvay.Analysis_Table.Characteristic",
+              "FieldName": "Characteristic",
+              "IsMultiValue": false,
+              "Type": "Text",
+              "DeriveFieldsFormat": "",
+              "Components": [],
+              "SetValues": [],
+              "Metadata": [],
+              "RuleSet": null,
+              "DefaultValue": "",
+              "DataSource": null
+            },
+            {
+              "FieldId": "COA.SOLVAY.Solvay.Analysis_Table.Unit",
+              "FieldName": "Unit",
+              "IsMultiValue": false,
+              "Type": "Text",
+              "DeriveFieldsFormat": "",
+              "Components": [],
+              "SetValues": [],
+              "Metadata": [],
+              "RuleSet": null,
+              "DefaultValue": "",
+              "DataSource": null
+            },
+            {
+              "FieldId": "COA.SOLVAY.Solvay.Analysis_Table.Value",
+              "FieldName": "Value",
+              "IsMultiValue": false,
+              "Type": "Text",
+              "DeriveFieldsFormat": "",
+              "Components": [],
+              "SetValues": [],
+              "Metadata": [],
+              "RuleSet": null,
+              "DefaultValue": "",
+              "DataSource": null
+            },
+            {
+              "FieldId": "COA.SOLVAY.Solvay.Analysis_Table.Lower_Limit",
+              "FieldName": "Lower_Limit",
+              "IsMultiValue": false,
+              "Type": "Text",
+              "DeriveFieldsFormat": "",
+              "Components": [],
+              "SetValues": [],
+              "Metadata": [],
+              "RuleSet": null,
+              "DefaultValue": "",
+              "DataSource": null
+            },
+            {
+              "FieldId": "COA.SOLVAY.Solvay.Analysis_Table.Upper_Limit",
+              "FieldName": "Upper_Limit",
+              "IsMultiValue": false,
+              "Type": "Text",
+              "DeriveFieldsFormat": "",
+              "Components": [],
+              "SetValues": [],
+              "Metadata": [],
+              "RuleSet": null,
+              "DefaultValue": "",
+              "DataSource": null
+            }
+          ],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#e370e2"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "l"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        }
+      ]
+    },
+    {
+      "Connections": [],
+      "DocumentTypeId": "COO.ALMANYA.COO_Almanya",
+      "Group": "COO",
+      "Category": "ALMANYA",
+      "Name": "COO_Almanya",
+      "OptionalUniqueIdentifier": "",
+      "TypeField": {
+        "FieldId": "COO.ALMANYA.COO_Almanya.DocumentType",
+        "FieldName": "Document Type"
+      },
+      "Fields": [
+        {
+          "FieldId": "COO.ALMANYA.COO_Almanya.Document_Number",
+          "FieldName": "Document_Number",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#038a18"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "c"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "COO.ALMANYA.COO_Almanya.Origin_Country",
+          "FieldName": "Origin_Country",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#fa6616"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "r"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "COO.ALMANYA.COO_Almanya.Approval_Country",
+          "FieldName": "Approval_Country",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#8a97a0"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "a"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "COO.ALMANYA.COO_Almanya.Approval_Date",
+          "FieldName": "Approval_Date",
+          "IsMultiValue": false,
+          "Type": "Date",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#6eb84a"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "v"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        }
+      ]
+    },
+    {
+      "Connections": [],
+      "DocumentTypeId": "COO.BELCIKA.COO_Belcika",
+      "Group": "COO",
+      "Category": "BELCIKA",
+      "Name": "COO_Belcika",
+      "OptionalUniqueIdentifier": "",
+      "TypeField": {
+        "FieldId": "COO.BELCIKA.COO_Belcika.DocumentType",
+        "FieldName": "Document Type"
+      },
+      "Fields": [
+        {
+          "FieldId": "COO.BELCIKA.COO_Belcika.Document_Number",
+          "FieldName": "Document_Number",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#038a18"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "c"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "COO.BELCIKA.COO_Belcika.Origin_Country",
+          "FieldName": "Origin_Country",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#fa6616"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "r"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "COO.BELCIKA.COO_Belcika.Approval_Country",
+          "FieldName": "Approval_Country",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#8a97a0"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "a"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "COO.BELCIKA.COO_Belcika.Approval_Date",
+          "FieldName": "Approval_Date",
+          "IsMultiValue": false,
+          "Type": "Date",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#6eb84a"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "v"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        }
+      ]
+    },
+    {
+      "Connections": [],
+      "DocumentTypeId": "COO.CIN.COO_Cin",
+      "Group": "COO",
+      "Category": "CIN",
+      "Name": "COO_Cin",
+      "OptionalUniqueIdentifier": "",
+      "TypeField": {
+        "FieldId": "COO.CIN.COO_Cin.DocumentType",
+        "FieldName": "Document Type"
+      },
+      "Fields": [
+        {
+          "FieldId": "COO.CIN.COO_Cin.Document_Number",
+          "FieldName": "Document_Number",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#038a18"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "c"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "COO.CIN.COO_Cin.Origin_Country",
+          "FieldName": "Origin_Country",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#fa6616"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "r"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "COO.CIN.COO_Cin.Approval_Country",
+          "FieldName": "Approval_Country",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#8a97a0"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "a"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "COO.CIN.COO_Cin.Approval_Date",
+          "FieldName": "Approval_Date",
+          "IsMultiValue": false,
+          "Type": "Date",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#6eb84a"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "v"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        }
+      ]
+    },
+    {
+      "Connections": [],
+      "DocumentTypeId": "COO.FRANSA.COO_Fransa",
+      "Group": "COO",
+      "Category": "FRANSA",
+      "Name": "COO_Fransa",
+      "OptionalUniqueIdentifier": "",
+      "TypeField": {
+        "FieldId": "COO.FRANSA.COO_Fransa.DocumentType",
+        "FieldName": "Document Type"
+      },
+      "Fields": [
+        {
+          "FieldId": "COO.FRANSA.COO_Fransa.Document_Number",
+          "FieldName": "Document_Number",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#038a18"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "c"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "COO.FRANSA.COO_Fransa.Origin_Country",
+          "FieldName": "Origin_Country",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#fa6616"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "r"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "COO.FRANSA.COO_Fransa.Approval_Country",
+          "FieldName": "Approval_Country",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#8a97a0"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "a"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "COO.FRANSA.COO_Fransa.Approval_Date",
+          "FieldName": "Approval_Date",
+          "IsMultiValue": false,
+          "Type": "Date",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#6eb84a"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "v"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        }
+      ]
+    },
+    {
+      "Connections": [],
+      "DocumentTypeId": "COO.HOLLANDA.COO_Hollanda",
+      "Group": "COO",
+      "Category": "HOLLANDA",
+      "Name": "COO_Hollanda",
+      "OptionalUniqueIdentifier": "",
+      "TypeField": {
+        "FieldId": "COO.HOLLANDA.COO_Hollanda.DocumentType",
+        "FieldName": "Document Type"
+      },
+      "Fields": [
+        {
+          "FieldId": "COO.HOLLANDA.COO_Hollanda.Document_Number",
+          "FieldName": "Document_Number",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#038a18"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "c"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "COO.HOLLANDA.COO_Hollanda.Origin_Country",
+          "FieldName": "Origin_Country",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#fa6616"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "r"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "COO.HOLLANDA.COO_Hollanda.Approval_Country",
+          "FieldName": "Approval_Country",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#8a97a0"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "a"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "COO.HOLLANDA.COO_Hollanda.Approval_Date",
+          "FieldName": "Approval_Date",
+          "IsMultiValue": false,
+          "Type": "Date",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#6eb84a"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "v"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        }
+      ]
+    },
+    {
+      "Connections": [],
+      "DocumentTypeId": "COO.ITALYA.COO_Italya",
+      "Group": "COO",
+      "Category": "ITALYA",
+      "Name": "COO_Italya",
+      "OptionalUniqueIdentifier": "",
+      "TypeField": {
+        "FieldId": "COO.ITALYA.COO_Italya.DocumentType",
+        "FieldName": "Document Type"
+      },
+      "Fields": [
+        {
+          "FieldId": "COO.ITALYA.COO_Italya.Document_Number",
+          "FieldName": "Document_Number",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#038a18"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "c"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "COO.ITALYA.COO_Italya.Origin_Country",
+          "FieldName": "Origin_Country",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#fa6616"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "r"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "COO.ITALYA.COO_Italya.Approval_Country",
+          "FieldName": "Approval_Country",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#8a97a0"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "a"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "COO.ITALYA.COO_Italya.Approval_Date",
+          "FieldName": "Approval_Date",
+          "IsMultiValue": false,
+          "Type": "Date",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#6eb84a"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "v"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        }
+      ]
+    },
+    {
+      "Connections": [],
+      "DocumentTypeId": "ATR.ALMANYA.ATR_Almanya",
+      "Group": "ATR",
+      "Category": "ALMANYA",
+      "Name": "ATR_Almanya",
+      "OptionalUniqueIdentifier": "",
+      "TypeField": {
+        "FieldId": "ATR.ALMANYA.ATR_Almanya.DocumentType",
+        "FieldName": "Document Type"
+      },
+      "Fields": [
+        {
+          "FieldId": "ATR.ALMANYA.ATR_Almanya.Document_Number",
+          "FieldName": "Document_Number",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#038a18"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "c"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "ATR.ALMANYA.ATR_Almanya.Approval_Country",
+          "FieldName": "Approval_Country",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#8a97a0"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "a"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "ATR.ALMANYA.ATR_Almanya.Approval_Date",
+          "FieldName": "Approval_Date",
+          "IsMultiValue": false,
+          "Type": "Date",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#6eb84a"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "v"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        }
+      ]
+    },
+    {
+      "Connections": [],
+      "DocumentTypeId": "ATR.BELCIKA.ATR_Belcika",
+      "Group": "ATR",
+      "Category": "BELCIKA",
+      "Name": "ATR_Belcika",
+      "OptionalUniqueIdentifier": "",
+      "TypeField": {
+        "FieldId": "ATR.BELCIKA.ATR_Belcika.DocumentType",
+        "FieldName": "Document Type"
+      },
+      "Fields": [
+        {
+          "FieldId": "ATR.BELCIKA.ATR_Belcika.Document_Number",
+          "FieldName": "Document_Number",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#038a18"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "c"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "ATR.BELCIKA.ATR_Belcika.Approval_Country",
+          "FieldName": "Approval_Country",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#8a97a0"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "a"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "ATR.BELCIKA.ATR_Belcika.Approval_Date",
+          "FieldName": "Approval_Date",
+          "IsMultiValue": false,
+          "Type": "Date",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#6eb84a"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "v"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        }
+      ]
+    },
+    {
+      "Connections": [],
+      "DocumentTypeId": "ATR.FRANSA.ATR_Fransa",
+      "Group": "ATR",
+      "Category": "FRANSA",
+      "Name": "ATR_Fransa",
+      "OptionalUniqueIdentifier": "",
+      "TypeField": {
+        "FieldId": "ATR.FRANSA.ATR_Fransa.DocumentType",
+        "FieldName": "Document Type"
+      },
+      "Fields": [
+        {
+          "FieldId": "ATR.FRANSA.ATR_Fransa.Document_Number",
+          "FieldName": "Document_Number",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#038a18"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "c"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "ATR.FRANSA.ATR_Fransa.Approval_Country",
+          "FieldName": "Approval_Country",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#8a97a0"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "a"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "ATR.FRANSA.ATR_Fransa.Approval_Date",
+          "FieldName": "Approval_Date",
+          "IsMultiValue": false,
+          "Type": "Date",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#6eb84a"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "v"
+            },
+            {
+              "Key": "EnableValidatorNotes",
+              "Value": "true"
+            },
+            {
+              "Key": "ValidatorNotesSettings",
+              "Value": "{\"Type\":\"Text\",\"ReadOnly\":false,\"TypeSettings\":{\"OptionSet\":[]}}"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        }
+      ]
+    },
+    {
+      "Connections": [],
+      "DocumentTypeId": "ATR.HOLLANDA.ATR_Hollanda",
+      "Group": "ATR",
+      "Category": "HOLLANDA",
+      "Name": "ATR_Hollanda",
+      "OptionalUniqueIdentifier": "",
+      "TypeField": {
+        "FieldId": "ATR.HOLLANDA.ATR_Hollanda.DocumentType",
+        "FieldName": "Document Type"
+      },
+      "Fields": [
+        {
+          "FieldId": "ATR.HOLLANDA.ATR_Hollanda.Document_Number",
+          "FieldName": "Document_Number",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#038a18"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "c"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "ATR.HOLLANDA.ATR_Hollanda.Approval_Country",
+          "FieldName": "Approval_Country",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#8a97a0"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "a"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "ATR.HOLLANDA.ATR_Hollanda.Approval_Date",
+          "FieldName": "Approval_Date",
+          "IsMultiValue": false,
+          "Type": "Date",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#6eb84a"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "v"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        }
+      ]
+    },
+    {
+      "Connections": [],
+      "DocumentTypeId": "ATR.ITALYA.ATR_Italya",
+      "Group": "ATR",
+      "Category": "ITALYA",
+      "Name": "ATR_Italya",
+      "OptionalUniqueIdentifier": "",
+      "TypeField": {
+        "FieldId": "ATR.ITALYA.ATR_Italya.DocumentType",
+        "FieldName": "Document Type"
+      },
+      "Fields": [
+        {
+          "FieldId": "ATR.ITALYA.ATR_Italya.Document_Number",
+          "FieldName": "Document_Number",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#038a18"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "c"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "ATR.ITALYA.ATR_Italya.Approval_Country",
+          "FieldName": "Approval_Country",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#8a97a0"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "a"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "ATR.ITALYA.ATR_Italya.Approval_Date",
+          "FieldName": "Approval_Date",
+          "IsMultiValue": false,
+          "Type": "Date",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#6eb84a"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "v"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        }
+      ]
+    },
+    {
+      "Connections": [],
+      "DocumentTypeId": "BILLOFLADING.Ihracat.CMA2",
+      "Group": "BILL OF LADING",
+      "Category": "Ihracat",
+      "Name": "BL_CMA2",
+      "OptionalUniqueIdentifier": "",
+      "TypeField": {
+        "FieldId": "BILLOFLADING.Ihracat.CMA2.DocumentType",
+        "FieldName": "Document Type"
+      },
+      "Fields": [
+        {
+          "FieldId": "BILLOFLADING.Ihracat.CMA2.BL_No",
+          "FieldName": "BL_No",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#b4a796"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "l"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "BILLOFLADING.Ihracat.CMA2.Container_No",
+          "FieldName": "Container_No",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#e0ad74"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "c"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "BILLOFLADING.Ihracat.CMA2.Shipped_Date",
+          "FieldName": "Shipped_Date",
+          "IsMultiValue": false,
+          "Type": "Date",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#6915c0"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "h"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "BILLOFLADING.Ihracat.CMA2.Company",
+          "FieldName": "Company",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#7eda60"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "m"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        }
+      ]
+    },
+    {
+      "Connections": [],
+      "DocumentTypeId": "BILLOFLADING.Ihracat.HAPAQ_LLYOD",
+      "Group": "BILL OF LADING",
+      "Category": "Ihracat",
+      "Name": "HAPAQ_LLYOD",
+      "OptionalUniqueIdentifier": "",
+      "TypeField": {
+        "FieldId": "BILLOFLADING.Ihracat.HAPAQ_LLYOD.DocumentType",
+        "FieldName": "Document Type"
+      },
+      "Fields": [
+        {
+          "FieldId": "BILLOFLADING.Ihracat.HAPAQ_LLYOD.BL_No",
+          "FieldName": "BL_No",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#b4a796"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "l"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "BILLOFLADING.Ihracat.HAPAQ_LLYOD.Container_No",
+          "FieldName": "Container_No",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#e0ad74"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "c"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "BILLOFLADING.Ihracat.HAPAQ_LLYOD.Shipped_Date",
+          "FieldName": "Shipped_Date",
+          "IsMultiValue": false,
+          "Type": "Date",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#6915c0"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "h"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "BILLOFLADING.Ihracat.HAPAQ_LLYOD.Company",
+          "FieldName": "Company",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#7eda60"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "m"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        }
+      ]
+    },
+    {
+      "Connections": [],
+      "DocumentTypeId": "BILLOFLADING.Ihracat.MAERSK2",
+      "Group": "BILL OF LADING",
+      "Category": "Ihracat",
+      "Name": "MAERSK2",
+      "OptionalUniqueIdentifier": "",
+      "TypeField": {
+        "FieldId": "BILLOFLADING.Ihracat.MAERSK2.DocumentType",
+        "FieldName": "Document Type"
+      },
+      "Fields": [
+        {
+          "FieldId": "BILLOFLADING.Ihracat.MAERSK2.BL_No",
+          "FieldName": "BL_No",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#b4a796"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "l"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "BILLOFLADING.Ihracat.MAERSK2.Container_No",
+          "FieldName": "Container_No",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#e0ad74"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "c"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "BILLOFLADING.Ihracat.MAERSK2.Shipped_Date",
+          "FieldName": "Shipped_Date",
+          "IsMultiValue": false,
+          "Type": "Date",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#6915c0"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "h"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "BILLOFLADING.Ihracat.MAERSK2.Company",
+          "FieldName": "Company",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#7eda60"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "m"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        }
+      ]
+    },
+    {
+      "Connections": [],
+      "DocumentTypeId": "BILLOFLADING.Ihracat.MSC2",
+      "Group": "BILL OF LADING",
+      "Category": "Ihracat",
+      "Name": "MSC2",
+      "OptionalUniqueIdentifier": "",
+      "TypeField": {
+        "FieldId": "BILLOFLADING.Ihracat.MSC2.DocumentType",
+        "FieldName": "Document Type"
+      },
+      "Fields": [
+        {
+          "FieldId": "BILLOFLADING.Ihracat.MSC2.BL_No",
+          "FieldName": "BL_No",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#b4a796"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "l"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "BILLOFLADING.Ihracat.MSC2.Container_No",
+          "FieldName": "Container_No",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#e0ad74"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "c"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "BILLOFLADING.Ihracat.MSC2.Shipped_Date",
+          "FieldName": "Shipped_Date",
+          "IsMultiValue": false,
+          "Type": "Date",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#6915c0"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "h"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "BILLOFLADING.Ihracat.MSC2.Company",
+          "FieldName": "Company",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#7eda60"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "m"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        }
+      ]
+    },
+    {
+      "Connections": [],
+      "DocumentTypeId": "BILLOFLADING.Ihracat.OOCL",
+      "Group": "BILL OF LADING",
+      "Category": "Ihracat",
+      "Name": "OOCL",
+      "OptionalUniqueIdentifier": "",
+      "TypeField": {
+        "FieldId": "BILLOFLADING.Ihracat.OOCL.DocumentType",
+        "FieldName": "Document Type"
+      },
+      "Fields": [
+        {
+          "FieldId": "BILLOFLADING.Ihracat.OOCL.BL_No",
+          "FieldName": "BL_No",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#b4a796"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "l"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "BILLOFLADING.Ihracat.OOCL.Container_No",
+          "FieldName": "Container_No",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#e0ad74"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "c"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "BILLOFLADING.Ihracat.OOCL.Shipped_Date",
+          "FieldName": "Shipped_Date",
+          "IsMultiValue": false,
+          "Type": "Date",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#6915c0"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "h"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "BILLOFLADING.Ihracat.OOCL.Company",
+          "FieldName": "Company",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#7eda60"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "m"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        }
+      ]
+    },
+    {
+      "Connections": [],
+      "DocumentTypeId": "BILLOFLADING.Ihracat.BL_IHR_ZIM",
+      "Group": "BILL OF LADING",
+      "Category": "Ihracat",
+      "Name": "BL_IHR_ZIM",
+      "OptionalUniqueIdentifier": "",
+      "TypeField": {
+        "FieldId": "BILLOFLADING.Ihracat.BL_IHR_ZIM.DocumentType",
+        "FieldName": "Document Type"
+      },
+      "Fields": [
+        {
+          "FieldId": "BILLOFLADING.Ihracat.BL_IHR_ZIM.BL_No",
+          "FieldName": "BL_No",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#b4a796"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "l"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "BILLOFLADING.Ihracat.BL_IHR_ZIM.Container_No",
+          "FieldName": "Container_No",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#e0ad74"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "c"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "BILLOFLADING.Ihracat.BL_IHR_ZIM.Shipped_Date",
+          "FieldName": "Shipped_Date",
+          "IsMultiValue": false,
+          "Type": "Date",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#6915c0"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "h"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "BILLOFLADING.Ihracat.BL_IHR_ZIM.Company",
+          "FieldName": "Company",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#7eda60"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "m"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        }
+      ]
+    }
+  ],
+  "Groups": [
+    {
+      "Name": "SBIF",
+      "Categories": []
+    },
+    {
+      "Name": "CMR",
+      "Categories": [
+        "Ithalat",
+        "Ihracat"
+      ]
+    },
+    {
+      "Name": "BILL OF LADING",
+      "Categories": [
+        "Ithalat",
+        "Ihracat"
+      ]
+    },
+    {
+      "Name": "COA",
+      "Categories": [
+        "AKKIM",
+        "BASF",
+        "SASOL",
+        "SOLVAY"
+      ]
+    },
+    {
+      "Name": "COO",
+      "Categories": [
+        "ALMANYA",
+        "BELCIKA",
+        "CIN",
+        "FRANSA",
+        "HOLLANDA",
+        "ITALYA"
+      ]
+    },
+    {
+      "Name": "ATR",
+      "Categories": [
+        "ALMANYA",
+        "BELCIKA",
+        "FRANSA",
+        "HOLLANDA",
+        "ITALYA"
+      ]
+    }
+  ],
+  "SupportedLanguages": [
+    {
+      "Name": "Undetermined Language",
+      "Code": "und"
+    },
+    {
+      "Name": "Bulgarian",
+      "Code": "bul"
+    },
+    {
+      "Name": "Cantonese",
+      "Code": "yue"
+    },
+    {
+      "Name": "Danish",
+      "Code": "dan"
+    },
+    {
+      "Name": "Dutch",
+      "Code": "nld"
+    },
+    {
+      "Name": "English",
+      "Code": "eng"
+    },
+    {
+      "Name": "French",
+      "Code": "fra"
+    },
+    {
+      "Name": "Georgian",
+      "Code": "kat"
+    },
+    {
+      "Name": "German",
+      "Code": "deu"
+    },
+    {
+      "Name": "Greek",
+      "Code": "ell"
+    },
+    {
+      "Name": "Hebrew",
+      "Code": "heb"
+    },
+    {
+      "Name": "Hindi",
+      "Code": "hin"
+    },
+    {
+      "Name": "Italian",
+      "Code": "ita"
+    },
+    {
+      "Name": "Japanese",
+      "Code": "jpn"
+    },
+    {
+      "Name": "Korean",
+      "Code": "kor"
+    },
+    {
+      "Name": "Macedonian",
+      "Code": "mkd"
+    },
+    {
+      "Name": "Mandarin",
+      "Code": "zho"
+    },
+    {
+      "Name": "Marathi",
+      "Code": "mar"
+    },
+    {
+      "Name": "Norwegian",
+      "Code": "nor"
+    },
+    {
+      "Name": "Polish",
+      "Code": "pol"
+    },
+    {
+      "Name": "Portuguese",
+      "Code": "por"
+    },
+    {
+      "Name": "Romanian",
+      "Code": "ron"
+    },
+    {
+      "Name": "Russian",
+      "Code": "rus"
+    },
+    {
+      "Name": "Serbian",
+      "Code": "srp"
+    },
+    {
+      "Name": "Spanish",
+      "Code": "spa"
+    },
+    {
+      "Name": "Swedish",
+      "Code": "swe"
+    },
+    {
+      "Name": "Telugu",
+      "Code": "tel"
+    }
+  ]
+}
